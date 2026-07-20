@@ -10,10 +10,6 @@ app.use("/hey", (req,res) => {
     res.send("hey hey hey")
 })
 
-app.use("/hii", (req,res) => {
-    res.send("hii hii hii")
-})
-
 app.use((req,res) => {
     res.send("hello from the server, how are you")
 })
